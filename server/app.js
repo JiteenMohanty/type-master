@@ -62,10 +62,14 @@ function completedChapterIds(ranges) {
   return book.chapters.filter((ch) => chapterProgress(ranges, ch) >= 1).map((ch) => ch.id);
 }
 
-export function createHandler({ url, authToken } = {}) {
+const isRemoteUrl = (url) => /^(libsql|https?|wss?):\/\//.test(url ?? '');
+
+export function createHandler({ url, authToken, requireRemote = false } = {}) {
   let db;
   const getDb = () => {
     if (!url) throw new HttpError(500, 'Database not configured: set TURSO_DATABASE_URL and TURSO_AUTH_TOKEN');
+    // Serverless instances have no lasting disk: a file or :memory: database is wiped on every deploy.
+    if (requireRemote && !isRemoteUrl(url)) throw new HttpError(500, 'TURSO_DATABASE_URL must be a libsql:// URL; a local database is wiped on every deploy');
     return (db ??= openDb({ url, authToken, upgrade: upgradeProgress }));
   };
 
@@ -217,6 +221,11 @@ export function createHandler({ url, authToken } = {}) {
   }
 
   const routes = {
+    'GET /api/health': async () => {
+      const { n } = await getDb().get('SELECT COUNT(*) AS n FROM users');
+      return json(200, { database: isRemoteUrl(url) ? 'remote' : 'local', users: n }, { 'Cache-Control': 'no-store' });
+    },
+
     'GET /api/book': () => json(200, BOOK_PAYLOAD, { 'Cache-Control': 'public, max-age=300' }),
 
     'POST /api/register': async (request) => {

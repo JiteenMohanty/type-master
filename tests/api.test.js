@@ -97,3 +97,11 @@ test('page tests complete chapters and reject invalid submissions', async () => 
   const hist = await call('/api/history');
   assert.equal(hist.data.tests.length, 1);
 });
+
+test('health reports the database kind', async () => {
+  const call = client();
+  const res = await call('/api/health');
+  assert.equal(res.status, 200);
+  assert.equal(res.data.database, 'local');
+  assert.ok(Number.isInteger(res.data.users));
+});

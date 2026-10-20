@@ -39,6 +39,7 @@ A typing practice site where, instead of random paragraphs, you type the whole l
    Or add Turso from the Vercel Marketplace, which sets both variables for you.
 2. In Vercel, go to Project, then Settings, then Environment Variables. Add `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`, then redeploy.
 3. Tables are created automatically on the first request.
+4. Check `/api/health`: it should say `"database": "remote"`. The API refuses to run on Vercel with a `file:` or `:memory:` database, because serverless instances lose their disk on every deploy.
 
 How it runs on Vercel:
 
