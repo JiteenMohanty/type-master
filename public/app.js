@@ -447,7 +447,12 @@ async function renderLeaderboard() {
 // ---------- boot ----------
 
 async function boot() {
-  state.book = await api('/api/book');
+  try {
+    state.book = await api('/api/book');
+  } catch (err) {
+    document.querySelector('main').innerHTML = `<div class="auth-card"><h1>Server unavailable</h1><p class="error">Could not reach the API (${esc(err.message)}). Type Master needs its Node server running; see the README.</p></div>`;
+    return;
+  }
   try {
     const { me } = await api('/api/me');
     setMe(me);
