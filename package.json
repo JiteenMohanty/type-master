@@ -1,0 +1,12 @@
+{
+  "name": "type-master",
+  "version": "1.0.0",
+  "description": "Typing practice through the life story of Lord Hanuman",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test 'tests/*.test.js'"
+  }
+}

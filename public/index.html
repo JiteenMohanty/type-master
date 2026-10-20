@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Type Master · Hanuman Katha</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚩</text></svg>">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/practice">🚩 Type Master <span>Hanuman Katha</span></a>
+    <nav id="nav" hidden>
+      <a href="#/practice" data-view="practice">Practice</a>
+      <a href="#/chapters" data-view="chapters">Chapters</a>
+      <a href="#/profile" data-view="profile">Profile</a>
+      <a href="#/leaderboard" data-view="leaderboard">Leaderboard</a>
+    </nav>
+    <div id="userchip" class="userchip" hidden>
+      <div class="chip-text"><strong id="chip-name"></strong> <span id="chip-level"></span></div>
+      <div class="xpbar"><div id="chip-xp"></div></div>
+      <button id="logout" class="link">Log out</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Auth -->
+    <section id="view-auth" class="view" hidden>
+      <div class="auth-card">
+        <h1>Type the life of Hanuman</h1>
+        <p class="muted">From his birth as the son of the wind to the banner of Arjuna's chariot: 34 chapters, one keystroke at a time. Your place in the book is saved automatically.</p>
+        <div class="tabs">
+          <button class="tab active" data-auth="login">Log in</button>
+          <button class="tab" data-auth="register">Create account</button>
+        </div>
+        <form id="auth-form">
+          <label>Username <input name="username" autocomplete="username" required minlength="3" maxlength="20" pattern="[A-Za-z0-9_]+"></label>
+          <label>Password <input name="password" type="password" autocomplete="current-password" required minlength="6"></label>
+          <p id="auth-error" class="error" hidden></p>
+          <button type="submit" class="primary" id="auth-submit">Log in</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Practice -->
+    <section id="view-practice" class="view" hidden>
+      <div class="chapter-banner">
+        <div>
+          <div class="eyebrow" id="banner-arc"></div>
+          <h2 id="banner-title"></h2>
+        </div>
+        <div class="banner-progress">
+          <div class="bar"><div id="banner-bar"></div></div>
+          <span id="banner-pct"></span>
+        </div>
+      </div>
+
+      <div class="modes" id="modes" role="radiogroup" aria-label="Test length"></div>
+
+      <div class="live">
+        <div><span id="live-time">0:00</span><small id="live-time-label">time</small></div>
+        <div><span id="live-wpm">0</span><small>wpm</small></div>
+        <div><span id="live-acc">100%</span><small>accuracy</small></div>
+        <div><span id="live-progress">0%</span><small>passage</small></div>
+      </div>
+
+      <div class="typing-wrap">
+        <div id="typing-box" class="typing-box" tabindex="-1">
+          <div class="viewport"><div id="text" class="text"></div></div>
+        </div>
+        <div id="focus-hint" class="focus-hint">Click here or press any key to start typing</div>
+        <textarea id="input" class="hidden-input" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Type here"></textarea>
+      </div>
+      <p class="hint muted">The timer starts on your first keystroke. <kbd>Esc</kbd> restarts this passage. Progress is saved for whole words when accuracy is at least 75%.</p>
+
+      <div id="result" class="result" hidden>
+        <div class="result-main">
+          <div><span id="r-wpm" class="big"></span><small>wpm</small></div>
+          <div><span id="r-acc" class="big"></span><small>accuracy</small></div>
+        </div>
+        <div class="result-sub" id="r-sub"></div>
+        <div class="result-rewards" id="r-rewards"></div>
+        <div class="result-actions">
+          <button class="primary" id="r-next">Continue the story ➜</button>
+          <button id="r-retry">Retry this passage</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chapters -->
+    <section id="view-chapters" class="view" hidden>
+      <div class="section-head">
+        <h1>Chapters</h1>
+        <p class="muted" id="book-summary"></p>
+      </div>
+      <div id="arcs"></div>
+    </section>
+
+    <!-- Profile -->
+    <section id="view-profile" class="view" hidden>
+      <div class="profile-head">
+        <div class="level-ring" id="p-level"></div>
+        <div>
+          <h1 id="p-name"></h1>
+          <div class="eyebrow" id="p-rank"></div>
+          <div class="bar wide"><div id="p-xpbar"></div></div>
+          <small class="muted" id="p-xptext"></small>
+        </div>
+      </div>
+      <div class="stat-grid" id="p-stats"></div>
+      <h2>Badges</h2>
+      <div class="badges" id="p-badges"></div>
+      <h2>Recent tests</h2>
+      <div class="table-wrap"><table id="p-history"></table></div>
+    </section>
+
+    <!-- Leaderboard -->
+    <section id="view-leaderboard" class="view" hidden>
+      <h1>Leaderboard</h1>
+      <div class="table-wrap"><table id="leaders"></table></div>
+    </section>
+  </main>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
