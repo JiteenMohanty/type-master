@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { book } from '../content/book.js';
-import { MODES, targetEnd, commitLength, computeStats, addRange, coveredIn, isWordStart, chapterAt } from '../shared/engine.js';
+import { MODES, targetEnd, commitLength, computeStats, addRange, coveredIn, isWordStart, chapterAt } from '../public/shared/engine.js';
 import { levelForXp, xpForLevel, testXp } from '../server/rewards.js';
 
 test('book is plain typable ASCII with consistent chapter offsets', () => {

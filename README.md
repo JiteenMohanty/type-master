@@ -20,7 +20,7 @@ A typing practice site where, instead of random paragraphs, you type the whole l
 - **Accounts**:
   - Username and password, hashed with scrypt.
   - HttpOnly session cookie.
-  - Progress, history and badges are stored in SQLite.
+  - Progress, history and badges are stored in Turso (hosted SQLite / libSQL).
 
 ### Progress rules
 
@@ -28,27 +28,50 @@ A typing practice site where, instead of random paragraphs, you type the whole l
 - A test moves your bookmark and earns XP only if at least 75% of the typed characters are correct.
 - The server checks typed text against the book and rejects implausible results (over 300 WPM, or timings that don't fit the mode).
 
-## Run
+## Deploy on Vercel
 
-Requires **Node.js 22.5+**. There are no npm dependencies: it uses the built-in `node:sqlite` and `crypto` modules.
+1. Create a free database at [turso.tech](https://turso.tech):
+   ```sh
+   turso db create type-master
+   turso db show type-master --url      # -> TURSO_DATABASE_URL (libsql://...)
+   turso db tokens create type-master   # -> TURSO_AUTH_TOKEN
+   ```
+   Or add Turso from the Vercel Marketplace, which sets both variables for you.
+2. In Vercel, go to Project, then Settings, then Environment Variables. Add `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`, then redeploy.
+3. Tables are created automatically on the first request.
+
+How it runs on Vercel:
+
+- Static files are served from `public/`.
+- Every `/api/<route>` is handled by `api/[route].js`.
+
+## Run locally
+
+Requires Node.js 22+.
 
 ```sh
-npm start          # http://localhost:3000
+npm install
+npm start          # http://localhost:3000, uses a local file DB at data/typemaster.db
 npm test
 ```
 
 Environment variables:
 
 - `PORT`: default `3000`.
-- `DB_PATH`: default `data/typemaster.db`.
+- `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`: optional locally. Set them to use your Turso database instead of the local file.
 
 ## Layout
 
 ```
-content/arcs/*.js   story text, one file per arc
-content/book.js     joins chapters into one text with chapter offsets
-shared/engine.js    modes, passage slicing, scoring, coverage ranges (server + browser)
-server/             http server, auth, db schema, rewards/badges
-public/             single-page frontend (vanilla JS)
-tests/              node:test unit + API tests
+api/[route].js          Vercel function: all /api/* endpoints
+server/app.js           API handler (Web Request -> Response), shared by Vercel and local server
+server/index.js         local dev server (static files + API)
+server/db.js            libSQL client + schema
+server/auth.js          password hashing and sessions
+server/rewards.js       XP, levels, ranks, badges
+content/arcs/*.js       story text, one file per arc
+content/book.js         joins chapters into one text with chapter offsets
+public/                 single-page frontend (vanilla JS)
+public/shared/engine.js modes, passage slicing, scoring, coverage ranges (server + browser)
+tests/                  node:test unit + API tests
 ```

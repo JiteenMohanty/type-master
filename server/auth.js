@@ -15,23 +15,23 @@ export function verifyPassword(password, salt, expectedHex) {
 
 const sha256 = (s) => createHash('sha256').update(s).digest('hex');
 
-export function createSession(db, userId) {
+export async function createSession(db, userId) {
   const token = randomBytes(32).toString('hex');
   const expires = Date.now() + SESSION_DAYS * 86400000;
-  db.prepare('INSERT INTO sessions (token_hash, user_id, expires_at) VALUES (?, ?, ?)').run(sha256(token), userId, expires);
+  await db.run('INSERT INTO sessions (token_hash, user_id, expires_at) VALUES (?, ?, ?)', sha256(token), userId, expires);
   return { token, maxAge: SESSION_DAYS * 86400 };
 }
 
-export function destroySession(db, token) {
-  if (token) db.prepare('DELETE FROM sessions WHERE token_hash = ?').run(sha256(token));
+export async function destroySession(db, token) {
+  if (token) await db.run('DELETE FROM sessions WHERE token_hash = ?', sha256(token));
 }
 
-export function userForToken(db, token) {
+export async function userForToken(db, token) {
   if (!token) return null;
-  const row = db
-    .prepare('SELECT u.* FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ?')
-    .get(sha256(token), Date.now());
-  return row || null;
+  return db.get(
+    'SELECT u.* FROM sessions s JOIN users u ON u.id = s.user_id WHERE s.token_hash = ? AND s.expires_at > ?',
+    sha256(token), Date.now(),
+  );
 }
 
 export function parseCookies(header = '') {

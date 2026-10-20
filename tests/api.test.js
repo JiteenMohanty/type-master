@@ -1,14 +1,14 @@
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
-import { createApp } from '../server/index.js';
+import { createLocalServer } from '../server/index.js';
 import { book } from '../content/book.js';
-import { targetEnd } from '../shared/engine.js';
+import { targetEnd } from '../public/shared/engine.js';
 
 let server;
 let base;
 
 before(async () => {
-  server = createApp({ dbPath: ':memory:' });
+  server = createLocalServer({ url: ':memory:' });
   await new Promise((r) => server.listen(0, r));
   base = `http://127.0.0.1:${server.address().port}`;
 });
