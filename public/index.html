@@ -4,12 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Type Master · Hanuman Katha</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚩</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 22'><path d='M2 21V1' stroke='%231F1D1A' stroke-width='1.6' stroke-linecap='round'/><path d='M2.8 1.8 L16 6.2 L2.8 10.6 Z' fill='%239C5414'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&display=swap">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#/practice">🚩 Type Master <span>Hanuman Katha</span></a>
+    <a class="brand" href="#/practice"><svg width="18" height="22" viewBox="0 0 18 22" fill="none" aria-hidden="true"><path d="M2 21V1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M2.8 1.8 L16 6.2 L2.8 10.6 Z" fill="var(--accent)"/></svg> Type Master</a>
     <nav id="nav" hidden>
       <a href="#/practice" data-view="practice">Practice</a>
       <a href="#/chapters" data-view="chapters">Chapters</a>
@@ -17,8 +20,8 @@
       <a href="#/leaderboard" data-view="leaderboard">Leaderboard</a>
     </nav>
     <div id="userchip" class="userchip" hidden>
-      <div class="chip-text"><strong id="chip-name"></strong> <span id="chip-level"></span></div>
-      <div class="xpbar"><div id="chip-xp"></div></div>
+      <span id="chip-level" class="muted"></span>
+      <strong id="chip-name"></strong>
       <button id="logout" class="link">Log out</button>
     </div>
   </header>
@@ -26,9 +29,15 @@
   <main>
     <!-- Auth -->
     <section id="view-auth" class="view" hidden>
+      <div class="auth-intro">
+        <h1>Learn to type by reading the story of Hanuman.</h1>
+        <p class="muted">Thirty-four chapters, from the son of the wind to the banner on Arjuna's chariot. Your place in the book is kept between sessions.</p>
+        <blockquote>
+          <p>“Then, with a mighty roar, Hanuman sprang into the sky.”</p>
+          <footer class="muted">Chapter 15, The Leap Across the Ocean</footer>
+        </blockquote>
+      </div>
       <div class="auth-card">
-        <h1>Type the life of Hanuman</h1>
-        <p class="muted">From his birth as the son of the wind to the banner of Arjuna's chariot: 34 chapters, one keystroke at a time. Your place in the book is saved automatically.</p>
         <div class="tabs">
           <button class="tab active" data-auth="login">Log in</button>
           <button class="tab" data-auth="register">Create account</button>
@@ -81,7 +90,7 @@
         <div class="result-sub" id="r-sub"></div>
         <div class="result-rewards" id="r-rewards"></div>
         <div class="result-actions">
-          <button class="primary" id="r-next">Continue the story ➜</button>
+          <button class="primary" id="r-next">Continue the story</button>
           <button id="r-retry">Retry this passage</button>
         </div>
       </div>
@@ -99,12 +108,13 @@
     <!-- Profile -->
     <section id="view-profile" class="view" hidden>
       <div class="profile-head">
-        <div class="level-ring" id="p-level"></div>
         <div>
-          <h1 id="p-name"></h1>
           <div class="eyebrow" id="p-rank"></div>
-          <div class="bar wide"><div id="p-xpbar"></div></div>
+          <h1 id="p-name"></h1>
+        </div>
+        <div class="profile-xp">
           <small class="muted" id="p-xptext"></small>
+          <div class="bar wide"><div id="p-xpbar"></div></div>
         </div>
       </div>
       <div class="stat-grid" id="p-stats"></div>

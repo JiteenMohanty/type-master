@@ -86,8 +86,7 @@ $('#logout').addEventListener('click', async () => {
 function setMe(me) {
   state.me = me;
   $('#chip-name').textContent = me.username;
-  $('#chip-level').textContent = `Lv ${me.level} · ${me.rank}`;
-  $('#chip-xp').style.width = pct((me.xp - me.levelStartXp) / (me.nextLevelXp - me.levelStartXp));
+  $('#chip-level').textContent = `Level ${me.level}`;
 }
 
 // ---------- practice ----------
@@ -312,9 +311,9 @@ function showResult(data, error) {
     if (!r.counted) add(`Accuracy under ${pct(MIN_COMMIT_ACCURACY)} on the text. Your place in the book was not moved and no XP was earned. Slow down and try again.`, 'warn');
     if (r.xpGained) add(`<strong>+${r.xpGained} XP</strong>`);
     if (r.levelAfter > r.levelBefore) add(`<strong>Level up!</strong> You are now level ${r.levelAfter}, ${esc(data.me.rank)}.`);
-    for (const title of r.chaptersCompleted) add(`📜 Chapter complete: <strong>${esc(title)}</strong>`);
+    for (const title of r.chaptersCompleted) add(`Chapter complete: <strong>${esc(title)}</strong>`);
     for (const b of data.newBadges) {
-      add(`${b.icon} New badge: <strong>${esc(b.name)}</strong> <span class="muted">${esc(b.desc)}</span>`);
+      add(`New badge: <strong>${esc(b.name)}</strong> <span class="muted">${esc(b.desc)}</span>`);
       toast(b);
     }
   }
@@ -328,7 +327,7 @@ $('#r-retry').addEventListener('click', () => { newTest(state.test.startPos); fo
 function toast(b) {
   const el = document.createElement('div');
   el.className = 'toast';
-  el.innerHTML = `<span class="icon">${b.icon}</span><div><strong>${esc(b.name)}</strong><small>${esc(b.desc)}</small></div>`;
+  el.innerHTML = `<span class="dot"></span><div><strong>${esc(b.name)}</strong><small>${esc(b.desc)}</small></div>`;
   $('#toasts').append(el);
   setTimeout(() => el.remove(), 4000);
 }
@@ -347,14 +346,14 @@ function renderChapters() {
     <div class="arc">
       <div class="arc-head">
         <h2>${esc(arc.title)}</h2>
-        <span class="badge-name ${earned.has(`arc_${arc.id}`) ? 'earned' : ''}">🏵️ ${esc(arc.badge)}</span>
+        <span class="badge-name ${earned.has(`arc_${arc.id}`) ? 'earned' : ''}">${esc(arc.badge)}</span>
       </div>
       ${arc.chapterIds.map((id) => {
         const ch = chapters[id];
         const p = chapterProgress(ranges, ch);
         return `
           <div class="chapter ${p >= 1 ? 'done' : ''} ${id === here ? 'current' : ''}">
-            <span class="num">${p >= 1 ? '✓' : ch.number}</span>
+            <span class="num">${String(ch.number).padStart(2, '0')}</span>
             <span>${esc(ch.title)}${id === here ? '<span class="here">you are here</span>' : ''}</span>
             <div class="bar"><div style="width:${pct(p)}"></div></div>
             <span class="pct">${pct(p)}</span>
@@ -380,16 +379,15 @@ $('#arcs').addEventListener('click', (e) => {
 
 async function renderProfile() {
   const me = state.me;
-  $('#p-level').textContent = me.level;
   $('#p-name').textContent = me.username;
-  $('#p-rank').textContent = me.rank;
+  $('#p-rank').textContent = `Level ${me.level} · ${me.rank}`;
   $('#p-xpbar').style.width = pct((me.xp - me.levelStartXp) / (me.nextLevelXp - me.levelStartXp));
-  $('#p-xptext').textContent = `${me.xp} XP · ${me.nextLevelXp - me.xp} XP to level ${me.level + 1}`;
+  $('#p-xptext').textContent = `${me.xp} XP · ${me.nextLevelXp - me.xp} to level ${me.level + 1}`;
   const done = state.book.chapters.filter((c) => chapterProgress(me.ranges, c) >= 1).length;
   const typedChars = me.ranges.reduce((n, [s, e]) => n + e - s, 0);
   const stats = [
     [Math.round(me.bestWpm), 'best WPM'],
-    [`${me.streak} 🔥`, 'day streak'],
+    [me.streak, 'day streak'],
     [me.testsCount, 'tests taken'],
     [`${done}/${state.book.chapters.length}`, 'chapters complete'],
     [pct(typedChars / state.book.text.length), 'of the book typed'],
@@ -398,7 +396,7 @@ async function renderProfile() {
   $('#p-stats').innerHTML = stats.map(([v, l]) => `<div class="stat"><span>${esc(v)}</span><small>${esc(l)}</small></div>`).join('');
   $('#p-badges').innerHTML = me.badges.map((b) => `
     <div class="badge ${b.earnedAt ? 'earned' : 'locked'}" title="${b.earnedAt ? `Earned ${new Date(b.earnedAt).toLocaleDateString()}` : 'Locked'}">
-      <span class="icon">${b.icon}</span>
+      <span class="dot"></span>
       <div><strong>${esc(b.name)}</strong><small>${esc(b.desc)}</small></div>
     </div>`).join('');
 
