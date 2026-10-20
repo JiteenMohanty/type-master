@@ -1,12 +1,13 @@
 // The API as a single Web-standard handler: (Request) => Promise<Response>.
 // Used by the Vercel function in api/[route].js and by the local server in server/index.js.
 import { openDb } from './db.js';
+import { upgradeProgress } from './migrate.js';
 import { COOKIE, hashPassword, verifyPassword, createSession, destroySession, userForToken, parseCookies } from './auth.js';
 import {
   BADGES, CHAPTER_BONUS_XP, ARC_BONUS_XP, BOOK_BONUS_XP,
   levelForXp, xpForLevel, rankForLevel, testXp, qualifyingBadges,
 } from './rewards.js';
-import { book } from '../content/book.js';
+import { book, BOOK_VERSION } from '../content/book.js';
 import {
   MODES, PAGE_CHARS, MIN_COMMIT_ACCURACY,
   isWordStart, targetEnd, commitLength, computeStats, addRange, chapterProgress,
@@ -65,7 +66,7 @@ export function createHandler({ url, authToken } = {}) {
   let db;
   const getDb = () => {
     if (!url) throw new HttpError(500, 'Database not configured: set TURSO_DATABASE_URL and TURSO_AUTH_TOKEN');
-    return (db ??= openDb({ url, authToken }));
+    return (db ??= openDb({ url, authToken, upgrade: upgradeProgress }));
   };
 
   async function buildMe(user) {
@@ -225,7 +226,7 @@ export function createHandler({ url, authToken } = {}) {
       const { salt, hash } = hashPassword(password);
       let userId;
       try {
-        const res = await db.run('INSERT INTO users (username, pass_hash, salt, created_at) VALUES (?, ?, ?, ?)', username, hash, salt, Date.now());
+        const res = await db.run('INSERT INTO users (username, pass_hash, salt, created_at, book_version) VALUES (?, ?, ?, ?, ?)', username, hash, salt, Date.now(), BOOK_VERSION);
         userId = Number(res.lastInsertRowid);
       } catch (err) {
         if (/UNIQUE/i.test(err.message)) throw new HttpError(409, 'That username is taken');

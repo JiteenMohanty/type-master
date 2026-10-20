@@ -7,6 +7,9 @@ import war from './arcs/4-war.js';
 import ayodhya from './arcs/5-ayodhya.js';
 import mahabharata from './arcs/6-mahabharata.js';
 
+// Bump when chapter text changes, and record the old offsets in legacy.js.
+export const BOOK_VERSION = 2;
+
 const SOURCE_ARCS = [birth, kishkindha, sundara, war, ayodhya, mahabharata];
 
 export const BADGE_FOR_ARC = [

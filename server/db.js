@@ -46,7 +46,7 @@ const SCHEMA = [
 ];
 
 // Thin async wrapper over a libSQL client (Turso in production, a local file or :memory: otherwise).
-export function openDb({ url, authToken }) {
+export function openDb({ url, authToken, upgrade }) {
   if (!url) throw new Error('Database URL missing: set TURSO_DATABASE_URL');
   if (url.startsWith('file:')) mkdirSync(dirname(url.slice(5)), { recursive: true });
   const client = createClient({ url, authToken });
@@ -54,7 +54,9 @@ export function openDb({ url, authToken }) {
 
   const db = {
     client,
-    init: () => (ready ??= client.batch(SCHEMA, 'write').catch((err) => { ready = null; throw err; })),
+    init: () => (ready ??= client.batch(SCHEMA, 'write')
+      .then(() => upgrade?.(client))
+      .catch((err) => { ready = null; throw err; })),
     async get(sql, ...args) {
       await db.init();
       return (await client.execute({ sql, args })).rows[0] ?? null;

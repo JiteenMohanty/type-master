@@ -96,7 +96,7 @@ Ravana sat on a high throne of crystal and gold, wearing a crown of jewels, surr
 
 Ravana was furious and ordered him to be killed. But his brother Vibhishana stood up and said, "Brother, a messenger must never be killed. That is the law of kings. Punish him in some other way." Ravana thought for a moment and said, "Monkeys love their tails. Set his tail on fire and parade him through the city."
 
-The rakshasas wrapped Hanuman's tail in cloth and soaked it in oil. But as they wrapped it, his tail grew longer and longer, until they had used up all the cloth and oil in Lanka. Then they set it on fire. Sita heard the news and prayed to Agni, the god of fire, to be cool to Hanuman. Agni, who was a friend of Vayu, obeyed, and the flames did not burn him at all.
+The rakshasas wrapped Hanuman's tail in cloth and soaked it in oil. But as they wrapped it, his tail grew longer and longer, until they had used up all the cloth and oil in Lanka. Then they set it on fire. Sita heard the news and prayed to Agni, the god of fire, to be cool to Hanuman. Agni, who was a friend of Vayu, remembered the promise he had made to the child Hanuman long ago, that no flame would ever burn him. The fire blazed brightly on his tail, but Hanuman felt nothing more than a cool breeze.
 
 Hanuman let himself be led through the streets, studying the city's walls and gates. Then he shrank, slipped out of his bonds, grew huge again and leapt onto the rooftops. From house to house and palace to palace he leapt, and wherever his blazing tail touched, fire sprang up. Soon the whole golden city of Lanka was burning, and the rakshasas ran screaming through the smoke. Only the house of Vibhishana was spared.
 

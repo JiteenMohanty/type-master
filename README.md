@@ -1,14 +1,14 @@
 # Type Master · Hanuman Katha
 
-A typing practice site where, instead of random paragraphs, you type the whole life story of Lord Hanuman, from his birth to the Mahabharata, in 34 chapters across 6 arcs.
+A typing practice site where, instead of random paragraphs, you type the whole life story of Lord Hanuman, from his birth to the Mahabharata, in 40 chapters across 6 arcs.
 
 ## Features
 
-- **The book**: about 13,500 words of original retelling (`content/arcs/`), in plain ASCII so every character can be typed.
-  - Birth and childhood: Anjana's curse, the leap at the sun, Indra's vajra, the boons, the curse of forgetting, studying under Surya.
-  - Kishkindha, the journey to Lanka (Sundara Kanda) and the war.
-  - Ayodhya, including the pearl necklace, the sindoor story and becoming a Chiranjeevi.
-  - The Mahabharata: Bhima, Arjuna's banner, Garuda's pride.
+- **The book**: about 16,500 words of original retelling (`content/arcs/`), in plain ASCII so every character can be typed.
+  - Birth and childhood: Anjana's curse, the eleventh Rudra, the leap at the sun, Indra's vajra, the boons, the curse of forgetting, studying under Surya and the marriage to Suvarchala.
+  - Kishkindha, the journey to Lanka (Sundara Kanda) and the war, including Ahiravana, Makaradhwaja, the five faces and Sita's gift of the eight siddhis.
+  - Ayodhya, including the pearl necklace, the sindoor story, becoming a Chiranjeevi and the Ramayana carved on the rocks.
+  - The Mahabharata: Bhima and the four ages, Arjuna's banner, Garuda's pride.
 - **Automatic bookmark**: each test continues from where the last one ended. The chapter index shows per-chapter % typed, and you can jump to any chapter.
 - **Test modes**: 1, 3 and 5 minute tests, and 1 page and 2 page tests (1 page = about 1,500 characters).
 - **Rewards**:

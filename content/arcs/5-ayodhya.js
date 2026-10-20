@@ -77,5 +77,25 @@ Hanuman understood. Rama had sent him away so that the cycle of life and death c
 But before he left, Rama had given Hanuman a blessing. "As long as my story is told in this world," he had said, "you will remain on earth. Wherever my name is sung, you will be present." And so Hanuman became a Chiranjeevi, one of the immortal ones who live on through the ages. He did not ask for heaven or for liberation. He asked only to remain wherever Rama's name was remembered.
 `,
     },
+    {
+      title: 'The Ramayana on the Rocks',
+      text: `
+After Rama had gone, Hanuman went up into the Himalayas to spend his days in meditation on his Lord. There, in the cold silence of the high mountains, he began to write down the story of Rama. He had no palm leaves and no ink, so he wrote with his own nails, carving every verse into the great rocks of the mountainside.
+
+He wrote of the things he had seen with his own eyes: the first meeting in the forest, the ring in the ashoka grove, the burning city, the mountain of herbs, the long war and the return to Ayodhya. Because he had lived it, and because every word came from his love for Rama, his Ramayana was full of a fire and a tenderness that no other poem could match. This story is a later legend, and it is known as the tale of the Hanumad Ramayana.
+
+Around the same time, the sage Valmiki finished his own Ramayana, the great poem that he had composed by divine vision. He travelled to the mountains to offer it to Lord Shiva. There he saw Hanuman's verses carved into the rocks, and he began to read. The more he read, the quieter he became. At last he sat down and wept.
+
+"Why are you crying, great sage?" asked Hanuman.
+
+"Your Ramayana is so beautiful," said Valmiki, "that once the world sees it, no one will ever read mine."
+
+Hanuman did not hesitate for even a moment. For him, the glory of Rama mattered, not the glory of the one who told it. He did not want the sage to feel any sorrow because of him. He lifted the great slabs of rock on which he had carved his poem, carried them to the ocean and threw them into the depths. Then he bowed to Valmiki and said, "Now there is only your Ramayana. Let the whole world read it and come to love Rama."
+
+Valmiki was overwhelmed. He understood that he had just seen something even greater than poetry. It is said that he promised to be born again one day to sing of Rama and of Hanuman in a language everyone could understand, and some say that he returned as the poet Tulsidas.
+
+There is a final part to the legend. Centuries later, a single tablet from Hanuman's lost Ramayana is said to have washed up on the shore. It held just one verse, describing Ravana lifting Mount Kailash with his arms. The poet Kalidasa read it and recognised at once whose words they were, and he grieved that the world had lost the greatest telling of Rama's story.
+`,
+    },
   ],
 };

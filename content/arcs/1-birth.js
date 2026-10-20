@@ -20,9 +20,25 @@ Kesari and Anjana lived happily together, but years passed and no child came to 
 `,
     },
     {
+      title: 'The Eleventh Rudra',
+      text: `
+Not every telling remembers Anjana's beginnings in the same way. Some say she was the daughter of the sage Gautama and his wife Ahalya. Another old story says that her father was a powerful being who prayed to Lord Shiva for a mighty son. Shiva gave him a daughter instead, and promised that from this daughter a son greater than any he could have wished for would one day be born. The stories differ, but they agree on one thing: Anjana was meant to be the mother of someone extraordinary.
+
+High on Mount Kailash, Lord Shiva sat in meditation and saw what was coming. Ravana, the ten-headed king of Lanka, had grown so powerful that even the gods feared him. Vishnu, the preserver of the world, would soon be born on earth as Rama to bring an end to his cruelty. And Shiva decided that he too would go down to the earth to help.
+
+"But I will not go as a king, or as a god on a throne," Shiva said to Parvati. "Rama will need a servant, and I will be that servant. I will go as one of my own fierce forms, the eleventh Rudra. He will have the power to clear every obstacle from the path of good, but he will have no pride at all. Let the world see that the greatest strength is the strength that serves."
+
+So it came to be believed, by those who worship Shiva and by those who worship Vishnu alike, that the child of Anjana would be no ordinary vanara. He would carry within him a portion of Shiva himself, and he would give all of that power to Rama.
+
+Anjana knew nothing of this. She only knew that she longed for a son. One day she went to the sage Matanga, who lived in the forest near her home, and asked him what she should do. The sage looked at her for a long time with kind eyes. "Go to the hill of Venkatachala," he said. "Sit there in prayer, and do not give up. The one you are waiting for is also waiting for you."
+`,
+    },
+    {
       title: 'The Gift of the Wind',
       text: `
-Anjana decided that she would not wait any longer. She climbed a quiet hill, sat in stillness, and began a long and difficult penance to Lord Shiva. She ate only what the wind brought her. She endured heat and rain and cold without complaint. Day after day, season after season, she repeated the name of the Lord and asked for only one thing: a son.
+Anjana did as the sage had told her. She climbed the hill of Venkatachala, sat in stillness, and began a long and difficult penance to Lord Shiva. She ate only what the wind brought her. She endured heat and rain and cold without complaint. Day after day, season after season, she repeated the name of the Lord and asked for only one thing: a son.
+
+At last the wind around her grew warm and gentle, and a shining figure stood before her. It was Vayu, the god of the wind. "Your prayers have been heard," he said. "I will be born to you as your son. He will be as swift as I am, and the whole world will know him."
 
 Far away, in the city of Ayodhya, another prayer was being made. Dasharatha, the great king of the Raghu dynasty, also had no children. On the advice of his teachers he performed a grand fire sacrifice. When the sacrifice was complete, a radiant being rose out of the flames carrying a golden bowl of sweet rice pudding blessed by the gods. "Give this to your queens," the being said, "and you will have sons."
 
@@ -30,9 +46,13 @@ Dasharatha divided the pudding among his three queens, Kausalya, Kaikeyi and Sum
 
 The kite flew over forests and rivers until it passed above the hill where Anjana sat with her hands joined in prayer. Then Vayu, the god of the wind, acting on the wish of Lord Shiva, blew gently on the bird. The morsel of pudding slipped from its claws, and the wind carried it softly down into the open palms of Anjana.
 
-Anjana understood that this was the answer to her prayers. She ate the pudding with reverence. A divine power entered her, the blessing of Shiva carried on the breath of Vayu, and in time she gave birth to a son.
+Anjana understood that this was the answer to her prayers. She ate the pudding with reverence. A divine power entered her, the blessing of Shiva carried on the breath of Vayu. Some tellings say instead that the seven great sages carried the blessing of Shiva to her on a sacred leaf. However it came, in time she gave birth to a son, and it is said that he was born in the same season in which Rama was born to Queen Kausalya in Ayodhya.
 
 The child shone like molten gold. He had earrings that seemed to be made of light, and his cry was so strong that the trees of the forest shook. Kesari held him and laughed with joy. The sages who came to bless him called him by many names. He was Anjaneya, the son of Anjana. He was Kesari Nandan, the joy of Kesari. He was Maruti and Pavanputra, the son of the wind, because Vayu loved him as his own and promised to protect him always.
+
+So the child came to have three fathers, and the old books honour all of them. Kesari was his father by marriage, the one who raised him and gave him a royal family among the vanaras. Vayu was his father by gift, the one who gave him his speed and his breath. And Shiva was the one whose own power had taken birth in him.
+
+Many places still claim to be the place where he was born. Some say it was the hill of Anjanadri near Tirumala. Some say it was Anjaneri in the west of India. Others point to the rocky hills near Hampi, where the ancient kingdom of Kishkindha is said to have stood.
 
 In many parts of the land, people still celebrate his birth on the full moon of the month of Chaitra, singing his praise from dawn until the night.
 `,
@@ -86,11 +106,11 @@ Indra was the first to come forward, ashamed of what he had done. "My vajra stru
 
 Surya said, "I give him a hundredth part of my own radiance. And when he is old enough, I will teach him all the scriptures, so that no one will be his equal in learning or in speech."
 
-Varuna, lord of the waters, promised that water would never harm him. Yama, the lord of death, promised that his staff would never touch him and that he would never suffer from disease. Kubera promised that no weapon of his would ever wound him. Vishwakarma, the architect of the gods, said that nothing he had ever made could hurt the boy.
+Varuna, lord of the waters, promised that water would never harm him and that he would never drown. Agni, the god of fire, promised that no flame would ever burn him. Yama, the lord of death, promised that his staff would never touch him and that he would never suffer from disease. Kubera promised that no weapon of his would ever wound him. Vishwakarma, the architect of the gods, said that nothing he had ever made could hurt the boy.
 
 Finally Brahma said, "No weapon of mine shall be able to kill him. Even if he is bound by my weapon, it will hold him only for a short while. And he shall be able to change his form at will, to become as small as a thumb or as large as a mountain, and to go wherever he wishes."
 
-Vayu bowed to the gods with gratitude. He carried his son back to Anjana and Kesari, who had been searching everywhere for him, and told them all that had happened. That night there was a great celebration in the forest, and the little boy with the swollen jaw laughed and played as though nothing had happened at all.
+Vayu said, "And from me he shall have my own speed. He will move as fast as the wind and never grow tired." Then Vayu bowed to the gods with gratitude. He carried his son back to Anjana and Kesari, who had been searching everywhere for him, and told them all that had happened. That night there was a great celebration in the forest, and the little boy with the swollen jaw laughed and played as though nothing had happened at all.
 `,
     },
     {
@@ -136,7 +156,29 @@ Surya smiled, but he shook his head. "I would gladly teach you," he said, "but I
 
 "Then I will move with you," said Hanuman. He made himself enormous, placed one foot on the eastern mountain and the other on the western mountain, and faced the sun. As Surya travelled across the sky, Hanuman moved backwards along with him, never once taking his eyes off his teacher's face, never once missing a word.
 
-Surya was delighted by this student who would not take no for an answer. He taught Hanuman the Vedas and their branches, the sciences, the arts and philosophy. He taught him the nine systems of grammar, and Hanuman learned them so perfectly that, it is said, no one in the three worlds could ever find a single error in his speech. What took other students many years, Hanuman learned in a very short time.
+Surya was delighted by this student who would not take no for an answer. He taught Hanuman the Vedas and their branches, the sciences, the arts and philosophy. What took other students many years, Hanuman learned in a very short time.
+
+Then Surya began to teach him the nine systems of grammar, the Nava Vyakarana, the most difficult learning of all. Hanuman took in the first eight with ease. But when they came to the last and deepest part of the teaching, Surya fell silent.
+
+"What is wrong, teacher?" asked Hanuman.
+
+"There is a rule that even I must keep," said Surya sadly. "The final secrets of this grammar may be taught only to one who is married, a householder. You have taken a vow to remain a brahmachari all your life, and you will never marry. I cannot break the law of the worlds, and I would never ask you to break your vow. So this last knowledge must remain closed to you."
+
+Hanuman bowed his head. He wanted that knowledge more than anything, but he would not give up his vow, not even for learning. He sat in silence beside the chariot of the sun, and for the first time since he had become Surya's student, he did not know what to do.
+`,
+    },
+    {
+      title: 'Suvarchala, Daughter of the Sun',
+      text: `
+The gods saw the trouble of the teacher and his student, and Brahma, Vishnu and Shiva came to Surya with a suggestion. This story is told in a later text called the Parasara Samhita, and it is especially loved in the south of India.
+
+"Let a daughter be born from your own light," they said to Surya. "Let her be pure radiance, not born from any mother. Let Hanuman marry her, and the rule will be kept. And let her, as soon as the wedding is over, go into deep meditation, so that Hanuman's vow will also be kept."
+
+So Surya gathered his brightest light, and from it there appeared a maiden named Suvarchala, whose name means the one who shines beautifully. Surya brought her to Hanuman and said, "Take her as your bride. This marriage is not for pleasure. It is for the good of the world and for the completion of your learning. You will still be a brahmachari in your heart and in your life, and she will be a woman of meditation."
+
+Hanuman agreed, and the two were married in a simple ceremony with the gods as witnesses. Then Suvarchala bowed to her father and to her husband and went away to sit in meditation, and Surya taught Hanuman the last secrets of the ninth grammar. From that day Hanuman knew every rule of speech so perfectly that, it is said, no one in the three worlds could ever find a single error in what he said.
+
+In a few temples, Hanuman is still worshipped with Suvarchala seated at his side, and their wedding is celebrated in the month of Jyeshtha. But everywhere else he is remembered as the eternal brahmachari, and both of these things are held to be true at once.
 
 When his education was complete, Hanuman bowed to Surya and said, "Teacher, what may I offer you in return? Ask anything of me."
 

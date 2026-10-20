@@ -6,7 +6,7 @@ import { levelForXp, xpForLevel, testXp } from '../server/rewards.js';
 
 test('book is plain typable ASCII with consistent chapter offsets', () => {
   assert.match(book.text, /^[\x20-\x7e]+$/);
-  assert.equal(book.chapters.length, 34);
+  assert.equal(book.chapters.length, 40);
   for (const ch of book.chapters) {
     assert.ok(isWordStart(book.text, ch.start), `chapter ${ch.number} starts on a word`);
     assert.ok(ch.end === book.text.length || book.text[ch.end] === ' ');

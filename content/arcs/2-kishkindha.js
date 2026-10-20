@@ -28,7 +28,7 @@ Hanuman took the form of a wandering brahmin and went down to meet the strangers
 
 Hanuman bowed and spoke to them with great courtesy. He praised their noble appearance and asked who they were and why they had come to this lonely place. He told them that he was a minister of Sugriva, the exiled king of the vanaras, who was seeking a friend.
 
-Rama listened in silence. Then he turned to Lakshmana and said, "Brother, listen to the way this person speaks. He must have mastered all the Vedas and all of grammar. He has spoken for a long time, and he has not made a single mistake. His words are clear, his voice is pleasant, his face is calm. Even an enemy with a raised sword would be moved by such speech. A king who has such a messenger will succeed in everything."
+Rama listened in silence. Then he turned to Lakshmana and said, "Brother, listen to the way this person speaks. No one could speak like this without having mastered the Rig Veda, the Yajur Veda and the Sama Veda. He must have studied all of grammar, every one of its nine systems. He has spoken for a long time, and he has not made a single mistake. His words are clear, his voice is pleasant, his face is calm. Even an enemy with a raised sword would be moved by such speech. A king who has such a messenger will succeed in everything."
 
 As Rama spoke, something stirred deep inside Hanuman. He looked at Rama's face, and it seemed to him that he had been waiting for this person all his life. He threw off his disguise, fell at Rama's feet and wept with a joy he could not explain.
 

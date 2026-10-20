@@ -18,7 +18,23 @@ Bhima stood back, ashamed, and folded his hands. "Who are you?" he asked. "Are y
 
 The old monkey smiled. "I am Hanuman," he said, "the servant of Rama. You and I are brothers, Bhima, for we are both sons of the wind." Bhima's eyes filled with tears and he bowed before his elder brother. He asked to see the form in which Hanuman had leapt across the ocean, and Hanuman grew so huge that he filled the sky, until Bhima could not bear to look and begged him to become small again.
 
-Hanuman embraced Bhima, and Bhima felt his strength increase. Hanuman taught him about duty and humility, and showed him the way to the lotuses. "When you go to war," Hanuman said, "I will be there. When you roar on the battlefield, I will roar with you, and your enemies will tremble. I will sit on the banner of your brother Arjuna's chariot."
+Bhima now understood the lesson. They were both sons of the wind, but his own strength had been driven by pride and anger, while Hanuman's far greater strength rested on humility and devotion. Hanuman had not needed to fight him. He had only needed to make his tail heavier than a mountain.
+`,
+    },
+    {
+      title: 'The Four Ages',
+      text: `
+Bhima sat down at Hanuman's feet on the mountain path, and the two brothers talked for a long time. Bhima asked many questions, and Hanuman answered them patiently, as an elder brother should.
+
+First Hanuman spoke about time. He told Bhima that the world passes through four great ages. In the first, the Krita Yuga, righteousness stands firmly on all four legs, people do their duty without being told, and there is no sickness, no envy and no fear. In the Treta Yuga, the age of Rama, righteousness loses one leg, and people begin to perform sacrifices and keep vows to hold on to what they once had naturally. In the Dvapara Yuga, the age in which Bhima lived, righteousness stands on only two legs, and truth and falsehood are mixed together. And in the Kali Yuga, which was still to come, righteousness would stand on only one leg, and people would have to struggle to find it at all. He also spoke about the duties of every kind of person, and about how a king should rule with justice and protect the weak.
+
+Then Bhima asked the question that had been in his heart since he learned who the old monkey was. "Brother, you were strong enough to carry a mountain and to burn Lanka alone. Why did you not simply kill Ravana yourself and bring Sita home?"
+
+Hanuman smiled. "I could have done it," he said. "But that was not my task. Rama had vowed to win Sita back himself, and Sita had said that only Rama should rescue her. If I had done it, I would have taken away my master's honour and broken my mother's wish. A servant's greatest strength is knowing when not to use it."
+
+Bhima bowed his head. He had always believed that strength meant doing everything he could. Now he saw that true strength also meant restraint.
+
+Hanuman embraced Bhima, and as he did so, Bhima felt a part of his brother's strength flowing into his own body. Then Hanuman showed him the way to the lotuses. "When you go to war," Hanuman said, "I will be there. When you roar on the battlefield, I will roar with you, and your enemies will tremble. I will sit on the banner of your brother Arjuna's chariot."
 `,
     },
     {
@@ -79,6 +95,8 @@ Krishna asked Hanuman how he had entered the palace, and Hanuman took the Sudars
 The ages have turned many times since the war of Kurukshetra, but according to tradition, Hanuman has never left the world. He is one of the seven Chiranjeevis, the immortal ones, who remain on earth through the ages. The Bhagavata Purana tells that in a hidden land called Kimpurusha, Hanuman worships Rama day and night, singing his praises with folded hands.
 
 Wherever the story of Rama is read or sung, it is said, Hanuman is present. People sometimes leave an empty seat for him when the Ramayana is recited, believing that he comes to listen with tears in his eyes, his palms joined together. He does not ask to be noticed. He simply listens, as he has listened for thousands of years.
+
+In Varanasi, on the banks of the Ganga, stands the temple of Sankat Mochan, the remover of troubles. On Tuesdays and Saturdays, people bathe in the river and then come to offer him sweets made in pure ghee, garlands of flowers and lamps of oil. In other temples, people offer him a flag, honey, sindoor and the sound of the Hanuman Chalisa, and they believe that he hears every one of them.
 
 Many saints have told stories of meeting him. The poet Tulsidas, who wrote the Ramcharitmanas in the language of the common people, is said to have met Hanuman disguised as an old man who came every day to hear the Ramayana. With Hanuman's blessing, it is said, Tulsidas was granted a vision of Rama himself. The Hanuman Chalisa, forty verses in praise of Hanuman, is traditionally credited to Tulsidas, and today it is recited by millions of people every day.
 

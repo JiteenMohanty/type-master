@@ -54,19 +54,35 @@ He reached Lanka before dawn. Sushena found the herbs, and Lakshmana breathed in
 `,
     },
     {
-      title: 'Ahiravana and the Five Faces',
+      title: 'Ahiravana of the Underworld',
       text: `
-This story is not found in the oldest Ramayana, but it is loved and told across India in later tellings. Ravana, desperate, called upon his kinsman Ahiravana, king of Patala, the underworld, a master of dark magic. Ahiravana promised to capture Rama and Lakshmana and offer them as a sacrifice to his goddess.
+This story is not found in the oldest Ramayana, but it is loved and told across India in later tellings. By now Ravana had lost many of his greatest generals, and he was desperate. He called upon his kinsman Ahiravana, king of Patala, the underworld. Ravana fought with strength and weapons, but Ahiravana fought with sorcery, illusion and dark rituals, and he could change his shape at will. He promised to capture Rama and Lakshmana and offer them as a sacrifice to his goddess, so that she would make him invincible.
 
-That night Hanuman guarded the camp. He grew his tail long and wound it around the tent of Rama and Lakshmana like a fortress wall, and he sat at its only opening. But Ahiravana disguised himself as Vibhishana, and Hanuman let him in. Ahiravana cast a spell of sleep over the brothers and carried them down through a tunnel into the underworld.
+Vibhishana learned of the plot and warned the vanaras. That night Hanuman guarded the camp himself. He grew his tail longer and longer and wound it around the tent of Rama and Lakshmana, coil upon coil, until it stood like the wall of a fortress, and he sat at its only opening. Nothing could pass him by force.
 
-When Hanuman discovered what had happened, he followed the path down into Patala. At the gate of the city, he found a strong young warrior guarding it, half vanara and half fish. "Who are you?" asked Hanuman. "I am Makaradhwaja, the son of Hanuman," said the guard. Hanuman was astonished. Makaradhwaja explained that after the burning of Lanka, when Hanuman dipped his blazing tail into the ocean, a drop of his sweat had fallen into the water and been swallowed by a great fish, and from that fish he had been born.
+But Ahiravana did not use force. He took the form of Vibhishana and came to the opening at midnight, saying that he wished to look in on Rama. Hanuman trusted Vibhishana completely, and he let him in. Inside, Ahiravana cast a spell of deep sleep over the brothers, lifted them up and carried them down through a secret tunnel into the underworld. When the real Vibhishana came by a little later, Hanuman understood with horror what had happened.
 
-Hanuman embraced his son, but Makaradhwaja said, "I serve Ahiravana. I cannot let you pass." So father and son fought, and Hanuman defeated him and tied him up with his tail.
+He followed the tunnel down into Patala, deeper than any light could reach. At the gate of Ahiravana's city, he found a strong young warrior guarding it, half vanara and half crocodile, with a tail like his own. "Who are you?" asked Hanuman. "I am Makaradhwaja, the son of Hanuman," said the guard.
 
-Inside the palace, Hanuman learned the secret of Ahiravana's life: it was held in five lamps burning in five different directions. To kill him, all five lamps had to be put out at the same moment. Hanuman thought deeply, and then he took a form that no one had ever seen. He grew five faces: his own vanara face looking east, the lion face of Narasimha to the south, the eagle face of Garuda to the west, the boar face of Varaha to the north and the horse face of Hayagriva looking up to the sky.
+Hanuman was astonished. "I have never married," he said. "How can I have a son?" Makaradhwaja explained. After the burning of Lanka, when Hanuman had plunged into the ocean to cool his blazing tail and wash away his weariness, a single drop of his sweat had fallen into the water. A great makara, a creature of the sea, had swallowed it. Later that makara was caught by Ahiravana's fishermen, and when they cut it open, they found a living child inside. Ahiravana had raised him and made him the keeper of his gate.
 
-With his five faces he blew out all five lamps at once, and then he killed Ahiravana and freed Rama and Lakshmana just before the sacrifice. Rama made Makaradhwaja king of Patala. To this day, Hanuman is worshipped in this form as Panchamukha Hanuman, the five-faced protector.
+Hanuman's heart was moved, and he embraced his son. But Makaradhwaja stepped back and raised his weapon. "You are my father, and I honour you," he said. "But I have eaten Ahiravana's salt and sworn to guard his gate. I cannot let you pass." Hanuman understood. Each of them was bound by duty, the son to his master and the father to Rama. So father and son fought, fiercely and without hatred, until Hanuman overpowered him and gently tied him up with his tail. Then he went in.
+`,
+    },
+    {
+      title: 'The Five Faces',
+      text: `
+Inside the dark city, Hanuman made himself tiny and searched for the princes. He found them asleep in a temple, bound and ready for the sacrifice, before a great image of the goddess. He also found a captive princess named Chandrasena, who told him the secret of Ahiravana's life. "His life is not in his body," she said. "It is held in five magic lamps, burning in five different directions. If all five are put out at the very same moment, he will become mortal. If even one is still burning, he will rise again."
+
+Hanuman thought about this. One breath could put out one lamp. No one could stand in five places and blow in five directions at once. Then he closed his eyes, and from deep inside him a power rose up that no one had ever seen. His body grew, and around his own face four more faces appeared.
+
+Facing east was his own vanara face, full of courage and devotion, which washes away fear. Facing south was the lion face of Narasimha, the fierce form of Vishnu, which defeats hidden enemies. Facing west was the eagle face of Garuda, which destroys poison, sickness and dark magic. Facing north was the boar face of Varaha, who once lifted the earth from the ocean, which brings steadiness and prosperity. And looking up towards the sky was the horse face of Hayagriva, the lord of knowledge, which brings wisdom and a clear mind.
+
+Hanuman drew one great breath and blew in all five directions at once. All five lamps went out in the same instant. Ahiravana rushed at him with a roar, and Hanuman struck him down, and this time the sorcerer did not rise again.
+
+It is said that as Hanuman carried Rama and Lakshmana out of the temple, the goddess herself was pleased with his devotion, and she asked him to be the guardian of her doors. Then he came to the gate where his son lay bound and untied him. Rama looked at Makaradhwaja and said, "You did your duty honestly, even against your own father. Such a person is fit to rule." And he made Makaradhwaja king of Patala.
+
+Hanuman carried the brothers back up to the camp before the sun rose. To this day he is worshipped in this form as Panchamukha Hanuman, the five-faced protector, and people who are afraid of dangers they cannot see pray to him, trusting that in every direction there is a face watching over them.
 `,
     },
     {
@@ -85,6 +101,22 @@ Hanuman looked at the rakshasis around her, who had frightened and tormented her
 But Sita shook her head. "No, Hanuman," she said. "They were only servants obeying their king. Who in this world has never done wrong? A noble person shows compassion even to those who deserve punishment." Hanuman bowed his head. He had won battles with his strength, but now he saw a different kind of strength, and he honoured it.
 
 Sita was brought before Rama, and after a long and painful separation, they were together again. The war was over.
+`,
+    },
+    {
+      title: 'The Eight Powers and the Nine Treasures',
+      text: `
+Sita had said that she had nothing to give Hanuman that was equal to his service. But she did not forget him. Before they left Lanka, she called him to her side.
+
+"Hanuman," she said, "you crossed the ocean for me when no one else could. You found me when I had lost hope. You comforted me, you carried my message, and you never once asked for anything in return. Gold and jewels are too small a gift for such a son. So I will give you something greater."
+
+Then Sita blessed him. She made him the master and the giver of the eight siddhis, the eight great powers, and of the nine nidhis, the nine treasures of the world. The poet Tulsidas remembers this blessing in the Hanuman Chalisa, where he sings that Mother Janaki gave Hanuman the boon of being the giver of the eight powers and the nine treasures.
+
+The eight powers were these. Anima is the power to become as small as a speck of dust, the power he had used to slip into Lanka unseen. Mahima is the power to become as large as a mountain, the power he had used to cross the sea. Garima is the power to become heavier than anything in the world. Laghima is the power to become as light as air. Prapti is the power to reach anything, anywhere. Prakamya is the power to fulfil any wish. Ishitva is lordship over all things, and Vashitva is the power to bring all things under control.
+
+The nine treasures were the wealth that the god Kubera guards, the great lotus and the lotus, the conch, the makara and the tortoise shell, and the treasures called Mukunda, Kunda, Nila and Kharva. These stand for every kind of wealth that the world can hold.
+
+Hanuman bowed and touched Sita's feet. He did not feel richer or stronger. He only felt loved. And that is why, it is said, he can give these powers and treasures to others without ever being troubled by them himself. They belong to him, but he does not belong to them. He belongs only to Rama.
 `,
     },
   ],
